@@ -101,15 +101,15 @@ header {
 
 .weather-app-temperature {
   font-size: 110px;
-  font-weight: 200;
+  font-weight: 150;
   color: #292c2e;
   font-family: "Urbanist", serif;
 }
 .weather-app-icon {
   display: block;
   margin: 0 auto;
-  padding: 10px;
-  height: 120px;
+  margin-top: 10px;
+  width: 120px;
 }
 
 .weather-app-unit {
@@ -117,7 +117,7 @@ header {
   margin-top: 20px;
   font-family: "Comfortaa", sans-serif;
   margin-top: 40px;
-  padding: 5px;
+  padding: 2px;
 }
 main {
   padding: 30px;
