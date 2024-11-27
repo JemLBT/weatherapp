@@ -14,7 +14,8 @@ body {
 }
 
 .app:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 200ms ease-in-out;
 }
 
 header {
@@ -29,13 +30,16 @@ header {
   width: 80%;
   padding: 10px;
   font-size: 12px;
+  color: #292c2e;
+  letter-spacing: 0.5px;
+  font-family: "Urbanist", serif;
 }
 
 .search-form-button {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  width: 80px;
+  width: 90px;
   font-size: 12px;
   margin-left: 5px;
   background-image: linear-gradient(
@@ -48,14 +52,18 @@ header {
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 10px #eee;
   display: inline;
+
+  font-family: "Urbanist", serif;
+  letter-spacing: 0.5px;
 }
 
 .search-form-button:hover {
   background-position: right center;
   color: #fff;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 
 .weather-app-data {
@@ -65,15 +73,19 @@ header {
 }
 .weather-app-city {
   margin: 0, 0, 20, 0;
-  font-size: 60px;
-  font-family: "Rampart One", serif;
+  font-size: 55px;
+  font-family: "Urbanist", serif;
   line-height: 44px;
+  font-weight: 350;
   color: #292c2e;
+  letter-spacing: 2px;
 }
 .weather-app-details {
   font-size: 16px;
   line-height: 20px;
   color: #292c2e;
+  font-weight: 100;
+  letter-spacing: 0.5px;
 }
 
 .weather-app-details strong {
@@ -83,28 +95,29 @@ header {
 }
 
 .weather-app-temperature-container {
-  display: flex;
   margin: 0 auto;
+  background-color: blue;
 }
 
 .weather-app-temperature {
   font-size: 110px;
-  font-weight: 500;
+  font-weight: 200;
   color: #292c2e;
-  font-family: "Rampart One", serif;
-  margin-top: 20px;
+  font-family: "Urbanist", serif;
 }
 .weather-app-icon {
   display: block;
   margin: 0 auto;
-  width: 110px;
-  margin-top: 50px;
+  padding: 10px;
+  height: 120px;
 }
 
 .weather-app-unit {
-  margin-top: 50px;
-  font-size: 30px;
-  font-family: "Rampart One", serif;
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Comfortaa", sans-serif;
+  margin-top: 40px;
+  padding: 5px;
 }
 main {
   padding: 30px;
@@ -115,4 +128,5 @@ footer {
   text-align: center;
   font-size: 10px;
   color: #525353;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.4);
 }
