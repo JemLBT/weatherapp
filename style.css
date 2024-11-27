@@ -1,11 +1,13 @@
 body {
-  background-color: #f7f7fb;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   font-family: "Urbanist", sans-serif;
+  height: 1000px;
 }
 .app {
   background-color: white;
   max-width: 600px;
   margin: 0 auto;
+  margin-top: 80px;
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
@@ -17,20 +19,38 @@ header {
 .search-form-input {
   background-color: #f7f7fb;
   border: none;
+  margin-left: 4%;
   border-radius: 5px;
   width: 80%;
-  padding: 10px 14px;
+  padding: 10px;
   font-size: 12px;
 }
 
 .search-form-button {
-  background-color: purple;
-  padding: 10px 14px;
+  padding: 10px;
   border: none;
   border-radius: 5px;
-  color: white;
-  margin-left: 5px;
+  width: 80px;
   font-size: 12px;
+  margin-left: 5px;
+  background-image: linear-gradient(
+    to right,
+    #1f1c2c 0%,
+    #928dab 51%,
+    #1f1c2c 100%
+  );
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display: inline;
+}
+
+.search-form-button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 .weather-app-data {
